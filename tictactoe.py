@@ -6,7 +6,23 @@
 import sys
 if sys.version_info[0] == 2:
     input = raw_input # python 2 compatibility
-print('Welcome to Tic Tac Toe!')
+print('Welcome to Tic Tac Toe so hype! I know I have good judgment, I know I have good taste
+It's funny and it's ironic that only I feel that way
+I promise 'em that you're different and everyone makes mistakes
+But just don't
+I heard that you're an actor, so act like a stand-up guy
+Whatever devil's inside you, don't let him out tonight
+I tell them it's just your culture and everyone rolls their eyes
+Yeah, I know
+All I'm asking, baby
+
+Please, please, please
+Don't prove I'm right
+And please, pleasе, please
+Don't bring me to tеars when I just did my makeup so nice
+Heartbreak is one thing, my ego's another
+I beg you, don't embarrass me, motherfucker, oh
+Please, please, please (Ah)')
 print('You are X.\n')
 
 print(' | | \n-+-+-\n | | \n-+-+-\n | | \n')
