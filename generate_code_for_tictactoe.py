@@ -5,12 +5,12 @@ fo = open('tictactoe.py', 'w')
 fo.write(r"""# My first tic-tac-toe program, by Al Sweigart al@inventwithpython.com
 # This sure was a lot of typing, but I finally finished it!
 
-# (This is a joke program.)
+# (This is a joke program. Or maybe I just cant code!)
 
 import sys
 if sys.version_info[0] == 2:
     input = raw_input # python 2 compatibility
-print('Welcome to Tic Tac Toe!')
+print('Welcome to Tic Tac Toe but evil and bad!')
 print('You are X.\n')
 
 print(' | | \n-+-+-\n | | \n-+-+-\n | | \n')
@@ -28,12 +28,12 @@ if move == '1':
     if move == '2':
         print('O moves on the bottom-right space.')
         print('O| | \n-+-+-\n | | \n-+-+-\nX|X|O\n')
-        print('Enter the number of your move:')
+        print('Enter the number of your move or dont bet you cant!:')
         print('  789\n  456\n  123')
         move = input()
 
         if move == '4':
-            print('O moves on the center space.')
+            print('O moves on the center space for sureee.')
             print('O| | \n-+-+-\nX|O| \n-+-+-\nX|X|O\n')
             print('The computer wins!')
             sys.exit()
@@ -1530,12 +1530,12 @@ if move == '3':
 
                 if move == '2':
                     print('O|O|X\n-+-+-\nX|X|O\n-+-+-\nO|X|X\n')
-                    print('It\'s a tie!')
+                    print('It\'s a tie-a!')
                     sys.exit()
             if move == '8':
                 print('O moves on the left space.')
                 print('O|X|X\n-+-+-\nO|X|O\n-+-+-\nO| |X\n')
-                print('The computer wins!')
+                print('The computer wins hahah hahahahhaha!')
                 sys.exit()
         if move == '8':
             print('O moves on the bottom-left space.')
